@@ -1,0 +1,8 @@
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\util\Common.java
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\web\crawler\CollectWords.java
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\web\crawler\GenerateJson.java
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\connection\ConnectionFactory.java
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\model\dao\WordDAO.java
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\model\bean\Word.java
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\web\crawler\WebCrawler.java
+D:\_QATestEngineer\WebProject\StilingueChallenge\src\main\java\br\com\challenge\engine\Execute.java

@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+		<title>Challenge</title>
+
+		<link href="font-awesome-4.7.0/css/font-awesome.min.css"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="img/icon.png">
+		<link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<script src="js/fastclick.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/cytoscape.min.js"></script>
+		<script src="js/jquery.qtip.min.js"></script>
+		<script src="js/cytoscape-qtip.js"></script>
+		<script src="js/bluebird.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/typeahead.bundle.js"></script>
+		<script src="js/handlebars.min.js"></script>
+		<script src="js/lodash.min.js"></script>
+		<script src="js/demo.js"></script>
+
+		<div id="cy"></div>
+		<div id="loading">
+			<span class="fa fa-refresh fa-spin"></span>
+		</div>
+	
+		<div id="search-wrapper">
+			<input type="text" class="form-control" id="search"
+				placeholder="&#xf002; Search">
+		</div>
+	
+		<div id="info"></div>
+
+		<button id="reset" class="btn btn-default">
+			<i class="fa fa-arrows-h"></i>
+		</button>
+	
+		<button id="filter" class="btn btn-default">
+			<i class="fa fa-filter"></i>
+		</button>
+	
+		<div id="filters">
+			<div class="filterset-section-title">Filtros</div>
+	
+			<div class="filtersets">
+				<div class="filterset">
+					<div class="filterset-title">Ordem Alfabética</div>
+					<input id="a" type="checkbox" checked></input><label for="a">A</label><br />
+					<input id="b" type="checkbox" checked></input><label for="b">B</label><br />
+					<input id="c" type="checkbox" checked></input><label for="c">C</label><br />
+					<input id="d" type="checkbox" checked></input><label for="d">D</label><br />
+					<input id="e" type="checkbox" checked></input><label for="e">E</label><br />
+					<input id="f" type="checkbox" checked></input><label for="f">F</label><br />
+					<input id="g" type="checkbox" checked></input><label for="g">G</label><br />
+					<input id="h" type="checkbox" checked></input><label for="h">H</label><br />
+					<input id="i" type="checkbox" checked></input><label for="i">I</label><br />
+					<input id="j" type="checkbox" checked></input><label for="j">J</label><br />
+					<input id="k" type="checkbox" checked></input><label for="k">K</label><br />
+					<input id="l" type="checkbox" checked></input><label for="l">L</label><br />
+					<input id="m" type="checkbox" checked></input><label for="m">M</label><br />
+				</div>
+				<div class="filterset right">
+					<div class="filterset-title">:</div>
+					<input id="n" type="checkbox" checked></input><label for="n">N</label><br />
+					<input id="o" type="checkbox" checked></input><label for="o">O</label><br />
+					<input id="p" type="checkbox" checked></input><label for="p">P</label><br />
+					<input id="q" type="checkbox" checked></input><label for="q">Q</label><br />
+					<input id="r" type="checkbox" checked></input><label for="r">R</label><br />
+					<input id="s" type="checkbox" checked></input><label for="s">S</label><br />
+					<input id="t" type="checkbox" checked></input><label for="t">T</label><br />
+					<input id="u" type="checkbox" checked></input><label for="u">U</label><br />
+					<input id="v" type="checkbox" checked></input><label for="v">V</label><br />
+					<input id="w" type="checkbox" checked></input><label for="w">W</label><br />
+					<input id="x" type="checkbox" checked></input><label for="x">X</label><br />
+					<input id="y" type="checkbox" checked></input><label for="y">Y</label><br />
+					<input id="z" type="checkbox" checked></input><label for="z">Z</label><br />
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
